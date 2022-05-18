@@ -1,4 +1,6 @@
 # devOpsAppQuiz
+jair camacho
+Janklaud osorio 
 
 [5%] Realizar un fork del proyecto, y agregar miembros del team aca en el encabezado
 
@@ -9,6 +11,8 @@
 
 - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - https://github.com/othneildrew/Best-README-Template
+
+
 
 
 [50%] Completar la implementacion usando: hacer commit en el master branch
