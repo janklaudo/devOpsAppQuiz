@@ -50,8 +50,8 @@ public class ManejoBarrioService implements ManejoBarrioServiceInt{
     }
 
 
-    public BarrioDto updateBarrio(BarrioDto barrioDto ) {
-        String url = "https://62859626f0e8f0bb7c063948.mockapi.io/api/v1/Barrio/";
+    public BarrioDto updateBarrio(String id, BarrioDto barrioDto ) {
+        String url = "https://62859626f0e8f0bb7c063948.mockapi.io/api/v1/Barrio/" + id;
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
         HttpEntity<BarrioDto> entity = new HttpEntity<>(barrioDto,headers);

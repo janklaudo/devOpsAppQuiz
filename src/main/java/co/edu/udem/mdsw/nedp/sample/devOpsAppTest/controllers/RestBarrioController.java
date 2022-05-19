@@ -41,14 +41,14 @@ public class RestBarrioController {
     }
 
     @PutMapping(
-            value = "/barrio", consumes = "application/json", produces = "application/json")
-    public ResponseEntity<BarrioDto> updatebarrio(@RequestBody BarrioDto barrioDto) {
-          return ResponseEntity.ok().body(manejoBarrioService.updateBarrio(barrioDto));
+            value = "/barrio/{id}", consumes = "application/json", produces = "application/json")
+    public ResponseEntity<BarrioDto> updatebarrio(@PathVariable String id, @RequestBody BarrioDto barrioDto) {
+          return ResponseEntity.ok().body(manejoBarrioService.updateBarrio(id, barrioDto));
     }
 
    @DeleteMapping(
-            value = "/barrio", consumes = "application/json", produces = "application/json")
-    public ResponseEntity<BarrioDto> deletebarrio(@RequestBody String id) {
+            value = "/barrio/{id}", produces = "application/json")
+    public ResponseEntity<BarrioDto> deletebarrio(@PathVariable String id) {
           return ResponseEntity.ok().body(manejoBarrioService.deleteBarrio(id));
     }
 

@@ -8,7 +8,7 @@ public interface ManejoBarrioServiceInt {
   BarrioDto getBarrio(String id);
   List<BarrioDto> getBarrios();
   BarrioDto saveBarrio(BarrioDto barrio);
-  public BarrioDto updateBarrio(BarrioDto barrioDto );
+  public BarrioDto updateBarrio(String id, BarrioDto barrioDto );
   public BarrioDto deleteBarrio(String id);
 }
 
