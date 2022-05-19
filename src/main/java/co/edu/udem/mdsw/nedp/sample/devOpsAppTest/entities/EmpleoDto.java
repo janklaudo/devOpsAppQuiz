@@ -1,4 +1,12 @@
 package co.edu.udem.mdsw.nedp.sample.devOpsAppTest.entities;
 
-public class EmpleoDto {
+
+import lombok.Data;
+
+import java.io.Serializable;
+
+@Data
+public class EmpleoDto implements Serializable {
+    public String id;
+    public String nombre;
 }

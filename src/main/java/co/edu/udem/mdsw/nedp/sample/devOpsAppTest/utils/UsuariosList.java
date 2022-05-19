@@ -13,4 +13,9 @@ public class UsuariosList {
     public UsuariosList() {
         usuarioList = new ArrayList<>();
     }
+
+    public List<UsuarioDto> getUsuarioList() {
+        return usuarioList ;
+    }
+  
 }

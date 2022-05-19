@@ -5,6 +5,10 @@ import co.edu.udem.mdsw.nedp.sample.devOpsAppTest.service.ManejoUsuarioServiceIn
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -20,11 +24,11 @@ public class RestUsuarioController {
     }
 
     @GetMapping(value = "/usuario/{id}", produces = "application/json")
-    public ResponseEntity<UsuarioDto> getUsuario(@PathVariable string id){
+    public ResponseEntity<UsuarioDto> getUsuario(@PathVariable String id){
         return ResponseEntity.ok().body(manejoUsuarioService.getUsuario(id));
     }
 
-    @GetMapping(value = "/usuario}", produces = "application/json")
+    @GetMapping(value = "/usuario", produces = "application/json")
     public ResponseEntity<List<UsuarioDto>> getUsuario(){
         return ResponseEntity.ok().body(manejoUsuarioService.getUsuarios());
     }
@@ -32,20 +36,20 @@ public class RestUsuarioController {
 
     @PostMapping(
             value = "/usuario", consumes = "application/json", produces = "application/json")
-    public BarrioDto Createusuario(@RequestBody usuarioDto usuarioDto ) {
-              return ResponseEntity.ok().body(manejousuarioService.createusuario(usuarioDto));  
+    public ResponseEntity<UsuarioDto> Createusuario(@RequestBody UsuarioDto usuarioDto ) {
+              return ResponseEntity.ok().body(manejoUsuarioService.saveUsuario(usuarioDto));  
     }
 
-    @PostMapping(
+    @PutMapping(
             value = "/usuario", consumes = "application/json", produces = "application/json")
-    public BarrioDto updateusuario(@RequestBody usuarioDto usuarioDto) {
-          return ResponseEntity.ok().body(manejousuarioService.updateusuario(usuarioDto));
+    public ResponseEntity<UsuarioDto> updateusuario(@RequestBody UsuarioDto usuarioDto) {
+          return ResponseEntity.ok().body(manejoUsuarioService.updateUsuario(usuarioDto));
     }
 
-   @PostMapping(
+   @DeleteMapping(
             value = "/usuario", consumes = "application/json", produces = "application/json")
-    public BarrioDto deleteusuario(@RequestBody string id) {
-          return ResponseEntity.ok().body(manejousuarioService.deleteusuario(id));
+    public ResponseEntity<UsuarioDto> deleteusuario(@RequestBody String id) {
+          return ResponseEntity.ok().body(manejoUsuarioService.deleteUsuario(id));
     }
 
 }
