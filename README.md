@@ -1,8 +1,8 @@
 # devOpsAppQuiz
 
 
-> Jair Camacho
-> Janklaud osorio 
+> # Jair Camacho
+> # Janklaud osorio 
 
 [5%] Realizar un fork del proyecto, y agregar miembros del team aca en el encabezado
 
