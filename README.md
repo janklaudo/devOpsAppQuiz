@@ -29,6 +29,7 @@
 -el controllador de barrio esta creado con el nombre en plural 
 -las propiedades de las entidades estan privadas 
 -las propiedades hay algunas nombradas en ingles y otras nombradas en español en las entidades
+- la entidad barrio no tiene un identificador unico
 
 es un api rest ya que implementa los metodos del protocolo HTTP 
 en los dos metodos del control de usuarios se estan devolviendo codigos de estado http 
