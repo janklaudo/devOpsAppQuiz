@@ -14,24 +14,24 @@
 - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - https://github.com/othneildrew/Best-README-Template
 
-# code Review
+# Code Review
 
 - El contreolador trabaja con la entidad usuarios pero el nombre no esta en concordancia de la entidad
 - El controlador llama al servicio de la interface ManejoUsuarioServiceInt pero al revisar el run no se inyecta el servicio en el proyecto
--los metodos del controlador no estan en coincordancia al uso del controlador
--los metodos del controlador estan vacio
--el controlador no tiene la etiqueta de restcontroller
--el controlador no tiene la etiqueta  Autowired
--no se han creado los servicios de barrios (interface y clase) 
--la entidad barrio no se define como serializable 
--existen las entidades "empleo" y "pais" pero no se le han creado sus controladores, servicios y no tienen propiedades las entidades y no se define como serializables 
+- Los metodos del controlador no estan en coincordancia al uso del controlador
+- los metodos del controlador estan vacio
+- el controlador no tiene la etiqueta de restcontroller
+- el controlador no tiene la etiqueta  Autowired
+- no se han creado los servicios de barrios (interface y clase) 
+- la entidad barrio no se define como serializable 
+- existen las entidades "empleo" y "pais" pero no se le han creado sus controladores, servicios y no tienen propiedades las entidades y no se define como serializables 
 - en el servicio de usuario el unico metodo que tiene plurar en el nombre es saveusuarios el resto esta nomenclado en singular
--el controllador de barrio esta creado con el nombre en plural 
--las propiedades de las entidades estan privadas 
--las propiedades hay algunas nombradas en ingles y otras nombradas en español en las entidades
+- el controllador de barrio esta creado con el nombre en plural 
+- las propiedades de las entidades estan privadas 
+- las propiedades hay algunas nombradas en ingles y otras nombradas en español en las entidades
 - la entidad barrio no tiene un identificador unico
-- -el identificador de la entidad esta de tipo string y se manda como entera 
-- -falta la creacion de los listados en las entidades de barrio, empleo y pais en la carpeta utils
+- el identificador de la entidad esta de tipo string y se manda como entera 
+- falta la creacion de los listados en las entidades de barrio, empleo y pais en la carpeta utils
 
 # Justificacion API REST
 
