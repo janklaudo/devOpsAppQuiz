@@ -27,7 +27,7 @@
 -existen las entidades "empleo" y "pais" pero no se le han creado sus controladores, servicios y no tienen propiedades las entidades y no se define como serializables 
 - en el servicio de usuario el unico metodo que tiene plurar en el nombre es saveusuarios el resto esta nomenclado en singular
 -el controllador de barrio esta creado con el nombre en plural 
-
+-las propiedades de las entidades estan privadas 
 
 
 es un api rest ya que implementa los metodos del protocolo HTTP 
