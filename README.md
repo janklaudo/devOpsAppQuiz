@@ -14,10 +14,26 @@
 - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - https://github.com/othneildrew/Best-README-Template
 
-RestDevOpsController
+
 
 - El contreolador trabaja con la entidad usuarios pero el nombre no esta en concordancia de la entidad
 - El controlador llama al servicio de la interface ManejoUsuarioServiceInt pero al revisar el run no se inyecta el servicio en el proyecto
+-los metodos del controlador no estan en coincordancia al uso del controlador
+-los metodos del controlador estan vacio
+-el controlador no tiene la etiqueta de restcontroller
+-el controlador no tiene la etiqueta  Autowired
+-no se han creado los servicios de barrios (interface y clase) 
+-la entidad barrio no se define como serializable 
+-existen las entidades "empleo" y "pais" pero no se le han creado sus controladores, servicios y no tienen propiedades las entidades y no se define como serializables 
+- en el servicio de usuario el unico metodo que tiene plurar en el nombre es saveusuarios el resto esta nomenclado en singular
+-el controllador de barrio esta creado con el nombre en plural 
+
+
+
+es un api rest ya que implementa los metodos del protocolo HTTP 
+en los dos metodos del control de usuarios se estan devolviendo codigos de estado http 
+se esta trabajando bajo arquitectura de capas
+utiliza interfaces uniforme de forma que los recursos implementan la entidad usuario empleo pais y barrio 
 
 
 
