@@ -19,26 +19,26 @@
 - El contreolador trabaja con la entidad usuarios pero el nombre no esta en concordancia de la entidad
 - El controlador llama al servicio de la interface ManejoUsuarioServiceInt pero al revisar el run no se inyecta el servicio en el proyecto
 - Los metodos del controlador no estan en coincordancia al uso del controlador
-- los metodos del controlador estan vacio
-- el controlador no tiene la etiqueta de restcontroller
-- el controlador no tiene la etiqueta  Autowired
-- no se han creado los servicios de barrios (interface y clase) 
-- la entidad barrio no se define como serializable 
-- existen las entidades "empleo" y "pais" pero no se le han creado sus controladores, servicios y no tienen propiedades las entidades y no se define como serializables 
-- en el servicio de usuario el unico metodo que tiene plurar en el nombre es saveusuarios el resto esta nomenclado en singular
-- el controllador de barrio esta creado con el nombre en plural 
-- las propiedades de las entidades estan privadas 
-- las propiedades hay algunas nombradas en ingles y otras nombradas en español en las entidades
-- la entidad barrio no tiene un identificador unico
-- el identificador de la entidad esta de tipo string y se manda como entera 
-- falta la creacion de los listados en las entidades de barrio, empleo y pais en la carpeta utils
+- Los metodos del controlador estan vacio
+- El controlador no tiene la etiqueta de restcontroller
+- El controlador no tiene la etiqueta  Autowired
+- No se han creado los servicios de barrios (interface y clase) 
+- La entidad barrio no se define como serializable 
+- Existen las entidades "empleo" y "pais" pero no se le han creado sus controladores, servicios y no tienen propiedades las entidades y no se define como serializables 
+- En el servicio de usuario el unico metodo que tiene plurar en el nombre es saveusuarios el resto esta nomenclado en singular
+- El controllador de barrio esta creado con el nombre en plural 
+- Las propiedades de las entidades estan privadas 
+- Las propiedades hay algunas nombradas en ingles y otras nombradas en español en las entidades
+- La entidad barrio no tiene un identificador unico
+- El identificador de la entidad esta de tipo string y se manda como entera 
+- Falta la creacion de los listados en las entidades de barrio, empleo y pais en la carpeta utils
 
 # Justificacion API REST
 
-es un api rest ya que implementa los metodos del protocolo HTTP 
-en los dos metodos del control de usuarios se estan devolviendo codigos de estado http 
-se esta trabajando bajo arquitectura de capas
-utiliza interfaces uniforme de forma que los recursos implementan la entidad usuario empleo pais y barrio 
+- Es un api rest ya que implementa los metodos del protocolo HTTP 
+- En los dos metodos del control de usuarios se estan devolviendo codigos de estado http 
+- Se esta trabajando bajo arquitectura de capas
+- Utiliza interfaces uniforme de forma que los recursos implementan la entidad usuario empleo pais y barrio 
 
 
 
