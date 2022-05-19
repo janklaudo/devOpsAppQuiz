@@ -49,6 +49,8 @@
 - https://www.baeldung.com/spring-resttemplate-post-json
 - Postman
 
+![image](https://user-images.githubusercontent.com/6808022/169195598-05a97b8c-ad23-4285-81e6-03ec473654b8.png)
+
 ![image](https://user-images.githubusercontent.com/6808022/169195439-deaa29b2-246e-4fce-ab24-86a77c304a26.png)
 
 ![image](https://user-images.githubusercontent.com/6808022/169195477-a60d59c4-256c-4923-9050-b5a697457656.png)
