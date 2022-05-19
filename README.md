@@ -51,4 +51,4 @@
 
 [30%] Implementar GitFlow Startegy en el proyecto
 
-** Ramas creadas: produccion y preproduccion **
+**Ramas creadas: produccion y preproduccion**
