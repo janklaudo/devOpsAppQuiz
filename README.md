@@ -14,7 +14,7 @@
 - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - https://github.com/othneildrew/Best-README-Template
 
-
+# code Review
 
 - El contreolador trabaja con la entidad usuarios pero el nombre no esta en concordancia de la entidad
 - El controlador llama al servicio de la interface ManejoUsuarioServiceInt pero al revisar el run no se inyecta el servicio en el proyecto
@@ -32,6 +32,8 @@
 - la entidad barrio no tiene un identificador unico
 - -el identificador de la entidad esta de tipo string y se manda como entera 
 - -falta la creacion de los listados en las entidades de barrio, empleo y pais en la carpeta utils
+
+# Justificacion API REST
 
 es un api rest ya que implementa los metodos del protocolo HTTP 
 en los dos metodos del control de usuarios se estan devolviendo codigos de estado http 
