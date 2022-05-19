@@ -14,6 +14,10 @@
 - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - https://github.com/othneildrew/Best-README-Template
 
+RestDevOpsController
+
+- El contreolador trabaja con la entidad usuarios pero el nombre no esta en concordancia de la entidad
+- El controlador llama al servicio de la interface ManejoUsuarioServiceInt pero al revisar el run no se inyecta el servicio en el proyecto
 
 
 
