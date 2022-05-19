@@ -49,6 +49,16 @@
 - https://www.baeldung.com/spring-resttemplate-post-json
 - Postman
 
+![image](https://user-images.githubusercontent.com/6808022/169195439-deaa29b2-246e-4fce-ab24-86a77c304a26.png)
+
+![image](https://user-images.githubusercontent.com/6808022/169195477-a60d59c4-256c-4923-9050-b5a697457656.png)
+
+![image](https://user-images.githubusercontent.com/6808022/169195501-12fa70e2-4a05-4892-9226-405114225d97.png)
+
+![image](https://user-images.githubusercontent.com/6808022/169195525-111218a5-fc53-466c-a2de-6f5110a51466.png)
+
+
+
 [30%] Implementar GitFlow Startegy en el proyecto
 
 **Ramas creadas: produccion y preproduccion**
